@@ -78,7 +78,7 @@ namespace WW.Patterns
         {
             if (isRecording)
             {
-                recordingTime += Time.deltaTime;
+                recordingTime += Time.fixedDeltaTime;
                 return;
             }
 
